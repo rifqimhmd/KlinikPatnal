@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-gray-50 text-gray-900">
+<body class=" text-gray-900 ">
 
     {{-- Header --}}
     @include('components.header')
 
     {{-- Main Content --}}
-    <main class="container mx-auto py-8">
+    <main>
         @yield('content')
     </main>
 
